@@ -1,0 +1,29 @@
+{
+  "name": "npm",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "how-to-npm",
+    "verify": "how-to-npm verify @linclark/pkg",
+    "verify-outdated": "how-to-npm verify npm@2.0.2",
+    "outdated": "npm outdated",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.3",
+    "how-to-npm": "^2.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaikaze/webdevtwo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gaikaze/webdevtwo/issues"
+  },
+  "homepage": "https://github.com/Gaikaze/webdevtwo#readme",
+  "description": ""
+}
